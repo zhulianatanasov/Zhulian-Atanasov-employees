@@ -1,0 +1,8 @@
+com/sirma/employees/dtos/ResultDto.class
+com/sirma/employees/EmployeesApplication.class
+com/sirma/employees/dtos/EmployeeDto.class
+com/sirma/employees/services/MainService.class
+com/sirma/employees/controllers/MainController.class
+com/sirma/employees/dtos/DataDto.class
+com/sirma/employees/services/impl/MainServiceImpl.class
+com/sirma/employees/dtos/PairDto.class

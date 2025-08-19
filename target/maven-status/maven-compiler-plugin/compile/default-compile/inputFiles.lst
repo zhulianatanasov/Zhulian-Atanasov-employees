@@ -1,0 +1,8 @@
+/Volumes/Sources/Sirma/employees-be/src/main/java/com/sirma/employees/EmployeesApplication.java
+/Volumes/Sources/Sirma/employees-be/src/main/java/com/sirma/employees/controllers/MainController.java
+/Volumes/Sources/Sirma/employees-be/src/main/java/com/sirma/employees/dtos/DataDto.java
+/Volumes/Sources/Sirma/employees-be/src/main/java/com/sirma/employees/dtos/EmployeeDto.java
+/Volumes/Sources/Sirma/employees-be/src/main/java/com/sirma/employees/dtos/PairDto.java
+/Volumes/Sources/Sirma/employees-be/src/main/java/com/sirma/employees/dtos/ResultDto.java
+/Volumes/Sources/Sirma/employees-be/src/main/java/com/sirma/employees/services/MainService.java
+/Volumes/Sources/Sirma/employees-be/src/main/java/com/sirma/employees/services/impl/MainServiceImpl.java
