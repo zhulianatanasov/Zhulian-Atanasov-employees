@@ -1,11 +1,13 @@
 package com.sirma.employees.dtos;
 
+import com.sirma.utils.CommonUtils;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 import java.util.List;
-import java.util.stream.Collectors;
+
+import static com.sirma.utils.CommonUtils.*;
 
 @Data
 @AllArgsConstructor
@@ -19,8 +21,8 @@ public class EmployeeDto {
     public static EmployeeDto from(final List<String> record)
     {
         try {
-            return new EmployeeDto(Long.valueOf(record.get(0)), Integer.valueOf(record.get(1)),
-                    record.get(2), record.get(3));
+            return new EmployeeDto(Long.valueOf(trim(record.get(0))), Integer.valueOf(trim(record.get(1))),
+                    trim(record.get(2)), trim(record.get(3)));
         } catch (final Exception e) {
             //throw new InvalidCsvDataException("Invalid csv row -> " + String.join(", ", record), e);
             //or log
